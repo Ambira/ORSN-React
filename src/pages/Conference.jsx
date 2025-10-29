@@ -51,7 +51,7 @@ const Conference = () => {
   <h2 className="text-2xl font-bold text-green-700">Venue Partner: </h2>
   <p className="text-black font-bold mb-2 flex items-center gap-2">
     Faculty of Technology and Environment, Prince of Songkla University, Phuket Campus, Thailand
-    <img src="src/assets/images/psu.png" alt="Venue Partner" className="w-1/5 h-auto" />
+    <img src="psu.png" alt="Venue Partner" className="w-1/5 h-auto" />
   </p>
 </div>
 

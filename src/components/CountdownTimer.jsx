@@ -25,7 +25,7 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <section className="counter-section py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 text-white text-center">
+    <section className="counter-section py-3 bg-gradient-to-r from-green-500 via-green-300 to-blue-700 text-white text-center">
       <h2 className="text-xl font-semibold mb-4">ORSN Conference Countdown:</h2>
       <div className="flex justify-center gap-6 text-lg">
         {Object.entries(timeLeft).map(([unit, value]) => (

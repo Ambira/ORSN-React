@@ -13,7 +13,7 @@ export default function Navbar() {
           {/* Logo & Title */}
           <a href="/" className="flex items-center space-x-2">
             <img
-              src="/src/assets/images/logo.png"
+              src="logo.png"
               className="h-10 w-auto"
               alt="ORSN Logo"
             />
