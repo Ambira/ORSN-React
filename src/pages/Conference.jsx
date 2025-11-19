@@ -8,41 +8,66 @@ const Conference = () => {
     <>
       {/* Header Section */}
       <div
-        className="relative w-full h-full sm:h-screen bg-cover bg-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        <div className="absolute inset-0 bg-white bg-opacity-50"></div>
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-black text-center p-4 pt-10">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 pt-16">2026 CONFERENCE</h1>
-          <h2 className="text-2xl sm:text-3xl mb-8">
-            17<sup>th</sup> ORSN International Conference, Phuket, Thailand
-          </h2>
+  className="relative w-full min-h-screen bg-cover bg-center flex items-start justify-center"
+  style={{ backgroundImage: `url(${backgroundImage})` }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-white bg-opacity-50"></div>
 
-          <div className="flex flex-wrap justify-center gap-4 w-full max-w-xl mt-8 pt-2 pb-8">
-            <a
-              href="https://orsn.org.np/pdfs/broc.pdf"
-              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
-            >
-              <strong>Brochure</strong>
-            </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSem7s9CF20yLLk9rNUaDY6tKv20-ABGxkdmZCtoj7dquAM6og/viewform?usp=header
-"
-              className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
-            >
-              <strong>Submit Abstract</strong>
-            </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeq4FCLW3BhBnjiHBR5mx8oKXAWIPaM4bwbumqA4RsuHCGN6Q/viewform?usp=header"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
-            >
-              <strong>Register</strong>
-            </a>
-          </div>
+  {/* Content */}
+  <div className="relative z-10 flex flex-col items-center text-black text-center px-4 py-8 gap-6 max-w-full pt-32 sm:pt-40">
+    {/* Headings */}
+    <h1 className="text-3xl sm:text-5xl font-bold">2026 CONFERENCE</h1>
+    <h2 className="text-xl sm:text-3xl">
+      17<sup>th</sup> ORSN International Conference, Phuket, Thailand
+    </h2>
 
-          <Countdown/>
-        </div>
+    {/* Buttons + QR in a row */}
+    <div className="flex flex-wrap justify-center items-start gap-8 mt-4">
+      {/* Brochure */}
+      <div className="flex flex-col items-center">
+        <a
+          href="https://orsn.org.np/pdfs/broc.pdf"
+          className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded w-full sm:w-auto text-center"
+        >
+          Brochure
+        </a>
+        <img src="/Brochure.jpg" alt="Brochure QR" className="w-16 h-16 mt-2" />
       </div>
+
+      {/* Submit Abstract */}
+      <div className="flex flex-col items-center">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSem7s9CF20yLLk9rNUaDY6tKv20-ABGxkdmZCtoj7dquAM6og/viewform?usp=header"
+          className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded w-full sm:w-auto text-center"
+        >
+          Submit Abstract
+        </a>
+        <img src="/Abstract.jpg" alt="Submit Abstract QR" className="w-16 h-16 mt-2" />
+        <p className="text-xs mt-1 text-center">
+          Or submit via: <a href="mailto:orsn.nepal@gmail.com" className="text-blue-600 underline">orsn.nepal@gmail.com</a>
+        </p>
+      </div>
+
+      {/* Register */}
+      <div className="flex flex-col items-center">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeq4FCLW3BhBnjiHBR5mx8oKAWIPaM4bwbumqA4RsuHCGN6Q/viewform?usp=header"
+          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded w-full sm:w-auto text-center"
+        >
+          Register
+        </a>
+        <img src="/Register.jpg" alt="Register QR" className="w-16 h-16 mt-2" />
+      </div>
+    </div>
+
+    {/* Countdown */}
+    <div className="mt-4">
+      <Countdown />
+    </div>
+  </div>
+</div>
+
 
       {/* Conference Details Section */}
       <section className="container mx-auto px-4 py-10">
