@@ -5,7 +5,7 @@ const Journal = () => {
     <div className="px-6 sm:px-12 py-16 bg-white text-gray-900">
       {/* Section Title */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl sm:text-4xl font-bold text-green-700 pt-6">International Journal of Operational Research and Networking (IJORN)</h1>
+        <h1 className="text-4xl sm:text-4xl font-bold text-green-700 pt-4">International Journal of Operational Research and Networking (IJORN)</h1>
         <p className="text-lg sm:text-xl mt-2 text-gray-700">Explore the latest research and advancements in operational research.</p>
       </div>
 
