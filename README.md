@@ -1,3 +1,7 @@
+An Updated website for Operational Research Society of Nepal (ORSN) built from React + Vite with updated timeline and Conference Page updated as required.
+
+To preview the hosted website the link is https://orsn.org.np/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
