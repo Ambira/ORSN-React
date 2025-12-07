@@ -14,7 +14,7 @@ const Journal = () => {
         {/* Editorial Info */}
         <div className="lg:w-1/2">
           <h2 className="text-3xl font-bold text-green-700 mb-4">Editorial Team</h2>
-          <p className="font-semibold mb-2">Editor-in-Chief: Dr. [Name]</p>
+          <p className="font-semibold mb-2">Editor-in-Chief: Prof Dr. Sunity Shrestha, T.U. Nepal</p>
           <p className="font-semibold">Editors:</p>
           <ul className="list-disc list-inside text-gray-800 font-medium mt-2 space-y-1">
             <li>Prof Dr. Sunity Shrestha, T.U. Nepal</li>
@@ -24,7 +24,7 @@ const Journal = () => {
             <li>Prof Dr. Yuri N. Sotskev, United Institute of Informatics Problems</li>
             <li>Prof. Dr. Matthias Ehrgott, Lancaster University, UK</li>
             <li>Dr. Govind Tamang, SOM, Tribhuvan University, Nepal</li>
-            <li>Dr. Bijay Lal Pradhan, Tribhuvan University, Nepal</li>
+            {/* <li>Dr. Bijay Lal Pradhan, Tribhuvan University, Nepal</li> */}
           </ul>
         </div>
 

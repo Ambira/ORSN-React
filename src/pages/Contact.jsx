@@ -102,7 +102,7 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-4 md:pl-12 pt-6">
             <h3 className="text-l font-semibold" style={{ color: "#000" }}>Address</h3>
-            <p style={{ color: "#000" }}>Maharajguni, Kathmandu</p>
+            <p style={{ color: "#000" }}>Maharajgunj, Kathmandu</p>
 
             <h3 className="text-l font-semibold" style={{ color: "#000" }}>Phone</h3>
             <p style={{ color: "#000" }}>
