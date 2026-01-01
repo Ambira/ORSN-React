@@ -103,10 +103,10 @@ const Conference = () => {
               </tr>
             </thead>
             <tbody>
-              {[                ['Last date for abstract submission', '15th Dec, 2025'],
-                ['Acceptance Notification', '20th Dec, 2025'],
-                ['Full paper submission', '04th Jan, 2026'],
-                ['Early Bird Registration Ends', '05th Jan, 2026'],
+              {[                ['Last date for abstract submission', '15th Jan, 2025'],
+                ['Acceptance Notification', '20th Jan, 2025'],
+                ['Full paper submission', '25th Jan, 2026'],
+                ['Early Bird Registration Ends', '20th Jan, 2026'],
                 ['Conference Day', '1–2 Feb, 2026'],
               ].map(([event, date]) => (
                 <tr key={event}>
