@@ -52,7 +52,7 @@ const Conference = () => {
       {/* Register */}
       <div className="flex flex-col items-center">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeq4FCLW3BhBnjiHBR5mx8oKAWIPaM4bwbumqA4RsuHCGN6Q/viewform?usp=header"
+          href="https://forms.gle/QZx7pqd7AsCyPZLp9"
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded w-full sm:w-auto text-center"
         >
           Register
